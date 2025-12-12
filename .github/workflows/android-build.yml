@@ -114,7 +114,7 @@ jobs:
         run: |
           mkdir -p OCCT && curl -L -o - 'https://github.com/Open-Cascade-SAS/OCCT/archive/refs/tags/V7_8_1.tar.gz' | tar -xz --strip-components=1 -C OCCT
           mkdir -p libgit2 && curl -L -o - 'https://codeload.github.com/libgit2/libgit2/tar.gz/refs/tags/v1.8.0' | tar -xz --strip-components=1 -C libgit2
-          mkdir -p ngspice && curl -L -o - 'https://altushost-swe.dl.sourceforge.net/project/ngspice/ng-spice-rework/42/ngspice-42.tar.gz' | tar -xz --strip-components=1 -C ngspice
+          mkdir -p ngspice && curl -L -o - 'https://sourceforge.net/projects/ngspice/files/ng-spice-rework/old-releases/42/ngspice-42.tar.gz' | tar -xz --strip-components=1 -C ngspice
           mkdir -p cairo && curl -L -o - 'https://gitlab.freedesktop.org/cairo/cairo/-/archive/02754405330989198548d1945b3c55566ba0c6b7/cairo-02754405330989198548d1945b3c55566ba0c6b7.tar.gz' | tar -xz --strip-components=1 -C cairo
           mkdir -p unixODBC && curl -L -o - 'ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.12.tar.gz' | tar -xz --strip-components=1 -C unixODBC
           mkdir -p zstd && curl -L -o - 'https://github.com/facebook/zstd/releases/download/v1.5.6/zstd-1.5.6.tar.gz' | tar -xz --strip-components=1 -C zstd
