@@ -1,3 +1,5 @@
+[![Android build](https://github.com/web-rpi/kicad-android/actions/workflows/android-build.yml/badge.svg?branch=actions)](https://github.com/web-rpi/kicad-android/actions/workflows/android-build.yml)
+
 A set of scripts to build KiCad on Android using wxQt wxWidgets port.
 
 # Requirements
