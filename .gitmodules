@@ -4,12 +4,12 @@
 	branch = wxqt-kicad
 [submodule "kicad"]
 	path = kicad
-	url = https://gitlab.com/dsa-t/kicad.git
-	branch = wxqt-android
+	url = https://gitlab.com/kicad/code/kicad.git
+	branch = master
 [submodule "Boost-for-Android"]
 	path = Boost-for-Android
 	url = https://github.com/web-rpi/Boost-for-Android.git
-	branch = fix-boost-download-link
+	branch = wx-tweaks
 [submodule "gl4es-114-extra"]
 	path = gl4es-114-extra
 	url = https://github.com/dsa-t/gl4es-114-extra.git
